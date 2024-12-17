@@ -1,0 +1,27 @@
+.app__wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 15px;
+}
+.filters {
+  max-width: 300px;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px gray;
+  padding: 20px;
+}
+.filters__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+.card__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
