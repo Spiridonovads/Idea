@@ -29,5 +29,7 @@
 @media (max-width: 750px) {
   .app__wrapper {
     flex-direction: column;
+    align-items: center;
   }
 }
+

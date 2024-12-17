@@ -113,3 +113,43 @@
     right: 0;
   }
 }
+
+@media (max-width: 550px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .airline img {
+    width: 150px;
+  }
+  .airline {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+  .airline::after {
+    display: none;
+  }
+  .airline::before {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: rgb(203, 201, 201);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .button {
+    width: 40%;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 420px) {
+  .info {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+}
